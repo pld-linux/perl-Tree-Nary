@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Tree
-%define	pnam	Nary
+%define		pdir	Tree
+%define		pnam	Nary
 Summary:	Tree::Nary - Perl implementation of N-ary search trees
 Summary(pl):	Tree::Nary - implementacja perlowa N-arnych drzew wyszukiwañ
 Name:		perl-Tree-Nary
