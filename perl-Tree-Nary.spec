@@ -1,11 +1,11 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tree
 %define	pnam	Nary
-Summary:	Tree::Nary - Perl implementation of N-ary search trees.
-#Summary(pl):	Tree::Nary - perlowa implementacja ...
+Summary:	Tree::Nary - Perl implementation of N-ary search trees
+Summary(pl):	Tree::Nary - perlowa implementacja N-arnych drzew wyszukiwañ
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.21
-Release:	1
+Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,8 +24,15 @@ example of such a database). It offers the capability to select nodes on
 the tree, and attachment points for nodes on the tree. Each attachment
 point can support multiple child nodes.
 
-# %description -l pl
-# TODO
+%description -l pl
+Klasa Tree::Nary jest implementacj± drzew N-arnych (drzew danych z
+dowoln± liczb± odga³êzieñ), udostêpniaj±c± strukturê organizacyjn± dla
+drzewa (zestawu) o dowolnej liczbie wêz³ów, bez wiedzy o konkretnym
+typie wêz³ów. Klasa ta mo¿e byæ u¿ywana do wy¶wietlania rekordów
+hierarchicznej bazy danych w wewnêtrznej aplikacji (plik grup
+sieciowych NIS jest przyk³adem takiej bazy danych). Oferuje tak¿e
+mo¿liwo¶æ wyboru wêz³ów w drzewie i punktów do³±czania dla wêz³ów.
+Ka¿dy punkt do³±czania mo¿e s³u¿yæ wielu wêz³om potomnym.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
