@@ -40,7 +40,7 @@ Ka¿dy punkt do³±czania mo¿e s³u¿yæ wielu wêz³om potomnym.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 %{!?_without_tests:%{__make} test}
 
