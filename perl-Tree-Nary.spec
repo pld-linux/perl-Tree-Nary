@@ -10,7 +10,8 @@ Summary(pl):	Tree::Nary - implementacja perlowa N-arnych drzew wyszukiwañ
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.3
 Release:	1
-License:	GPL/Artistic
+# same as perl (README says Public Domain)
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	c9eeebc69869554579b297aa61b0e779
