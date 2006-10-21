@@ -9,7 +9,8 @@ Summary:	Tree::Nary - Perl implementation of N-ary search trees
 Summary(pl):	Tree::Nary - implementacja perlowa N-arnych drzew wyszukiwañ
 Name:		perl-Tree-Nary
 Version:	1.3
-Release:	1
+Release:	2
+Epoch:		1
 # same as perl (README says Public Domain)
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
