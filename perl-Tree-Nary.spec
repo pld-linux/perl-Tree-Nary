@@ -6,7 +6,7 @@
 %define		pdir	Tree
 %define		pnam	Nary
 Summary:	Tree::Nary - Perl implementation of N-ary search trees
-Summary(pl):	Tree::Nary - implementacja perlowa N-arnych drzew wyszukiwañ
+Summary(pl.UTF-8):   Tree::Nary - implementacja perlowa N-arnych drzew wyszukiwaÅ„
 Name:		perl-Tree-Nary
 Version:	1.3
 Release:	2
@@ -31,15 +31,15 @@ example of such a database). It offers the capability to select nodes on
 the tree, and attachment points for nodes on the tree. Each attachment
 point can support multiple child nodes.
 
-%description -l pl
-Klasa Tree::Nary jest implementacj± drzew N-arnych (drzew danych z
-dowoln± liczb± odga³êzieñ), udostêpniaj±c± strukturê organizacyjn± dla
-drzewa (zestawu) o dowolnej liczbie wêz³ów, bez wiedzy o konkretnym
-typie wêz³ów. Klasa ta mo¿e byæ u¿ywana do wy¶wietlania rekordów
-hierarchicznej bazy danych w wewnêtrznej aplikacji (plik grup
-sieciowych NIS jest przyk³adem takiej bazy danych). Oferuje tak¿e
-mo¿liwo¶æ wyboru wêz³ów w drzewie i punktów do³±czania dla wêz³ów.
-Ka¿dy punkt do³±czania mo¿e s³u¿yæ wielu wêz³om potomnym.
+%description -l pl.UTF-8
+Klasa Tree::Nary jest implementacjÄ… drzew N-arnych (drzew danych z
+dowolnÄ… liczbÄ… odgaÅ‚Ä™zieÅ„), udostÄ™pniajÄ…cÄ… strukturÄ™ organizacyjnÄ… dla
+drzewa (zestawu) o dowolnej liczbie wÄ™zÅ‚Ã³w, bez wiedzy o konkretnym
+typie wÄ™zÅ‚Ã³w. Klasa ta moÅ¼e byÄ‡ uÅ¼ywana do wyÅ›wietlania rekordÃ³w
+hierarchicznej bazy danych w wewnÄ™trznej aplikacji (plik grup
+sieciowych NIS jest przykÅ‚adem takiej bazy danych). Oferuje takÅ¼e
+moÅ¼liwoÅ›Ä‡ wyboru wÄ™zÅ‚Ã³w w drzewie i punktÃ³w doÅ‚Ä…czania dla wÄ™zÅ‚Ã³w.
+KaÅ¼dy punkt doÅ‚Ä…czania moÅ¼e sÅ‚uÅ¼yÄ‡ wielu wÄ™zÅ‚om potomnym.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
