@@ -6,7 +6,7 @@
 %define		pdir	Tree
 %define		pnam	Nary
 Summary:	Tree::Nary - Perl implementation of N-ary search trees
-Summary(pl.UTF-8):   Tree::Nary - implementacja perlowa N-arnych drzew wyszukiwań
+Summary(pl.UTF-8):	Tree::Nary - implementacja perlowa N-arnych drzew wyszukiwań
 Name:		perl-Tree-Nary
 Version:	1.3
 Release:	2
