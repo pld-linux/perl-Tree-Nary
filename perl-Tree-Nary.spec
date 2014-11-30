@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Tree
 %define		pnam	Nary
+%include	/usr/lib/rpm/macros.perl
 Summary:	Tree::Nary - Perl implementation of N-ary search trees
 Summary(pl.UTF-8):	Tree::Nary - implementacja perlowa N-arnych drzew wyszukiwań
 Name:		perl-Tree-Nary
@@ -16,6 +16,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2953d138565c8f663c2f6e8f69974a11
+URL:		http://search.cpan.org/dist/Tree-Nary/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -25,11 +26,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The Tree::Nary class implements N-ary trees (trees of data with any
 number of branches), providing the organizational structure for a tree
 (collection) of any number of nodes, but knowing nothing about the
-specific type of node used.  It can be used to display hierarchical
-database entries in an internal application (the NIS netgroup file is an
-example of such a database). It offers the capability to select nodes on
-the tree, and attachment points for nodes on the tree. Each attachment
-point can support multiple child nodes.
+specific type of node used. It can be used to display hierarchical
+database entries in an internal application (the NIS netgroup file is
+an example of such a database). It offers the capability to select
+nodes on the tree, and attachment points for nodes on the tree. Each
+attachment point can support multiple child nodes.
 
 %description -l pl.UTF-8
 Klasa Tree::Nary jest implementacją drzew N-arnych (drzew danych z
